@@ -21,9 +21,9 @@ if has_good_credit:
 else:
     down_payment = 0.2 * price
 
-print("Down Payment: down_payment")
+print(f"Down Payment: {down_payment}")
 print('')
 print("Full Names:" + fullname)
 print("Phone: " + phone)
 print("Email: " + email)
-print("Down Payment:" + down_payment)
+print("Down Payment:" + str(down_payment))
